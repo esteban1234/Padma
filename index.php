@@ -2,101 +2,133 @@
 <?php include 'vistas/encabezado.php' ?>
 <body>
 
-<div class="contenlogocontacto">
-  <figure class="logo pull-left">
-    <a href="index.php"><img src="img/condesif2.png" alt="" class="img-responsive"></a>
+<header>
+  <nav class="pull-left">
+    <ul>
+      <a class="enlaces" id="select" href="index.php">INICIO</a>
+      <a class="enlaces" href="vistas/nosotros.php">NOSOTROS</a>
+      <a class="enlaces" href="vistas/servicios.php">SERVICIOS</a>
+      <a class="enlaces" href="vistas/contacto.php">CONTACTO</a>
+    </ul>
+  </nav>
+  <figure class=" logo pull-right">
+    <img src="img/padma.png" class="img-responsive" alt="">
   </figure>
-  <a href="vistas/contacto.php" class="boton"><button type="button" class="btn btn-danger pull-right">Contactar</button></a>
-</div>
-<div id="header__icon" class="menu">
-  <i id="open" class="fa fa-align-justify fa-2x" aria-hidden="true"></i>
-  <i id="close" class="fa fa-close fa-2x close"  aria-hidden="true"></i>
-  <p>Menu</p>
-</div>
-<nav>
-<ul>
-  <li class="select"><a href="index.php">INDEX</a></li>
-  <li><a href="vistas/nosotros.php">NOSOTROS</a></li>
-  <li><a href="vistas/servicios.php">SERVICIOS</a></li>
-  <li><a href="vistas/contacto.php">CONTACTO</a></li>
-</ul>
-</nav>
+</header>
 
 <div class="banner">
-  <!-- <div class="fondo"> -->
-    <div class="fondo2">
-      <p>
-        <h1>Desarrollando proyectos de alto estandar tecnológico por todos lados</h1>
-        <p class="textob">En el desarrollo de todos nuestros proyectos
-         tenemos siempre en cuenta el cumplimiento
-         de las directrices de calidad y medioambientales.</p>
-      </p>
+  <div class="fondo">
+    <p>El Mejor Equipo Al Mejor Precio</p>
+    <div style="text-align: center; margin-top: 5%;">
+      <a  class="btn btn-danger btn-outline btn-lg" href="vistas/contacto.php">CONTACTANOS</a>
     </div>
-  <!-- </div> -->
+  </div>
 </div>
 
-<div class="content bg-info">
-  <div class="section uno">
-      <div class="container">
-        <div class="row ">
-          <div class="col-xs-12 col-sm-12 col-md-6 unotexto">
-            <h2 class="text-primary">Inspírate para crear el espacio que siempre soñaste</h2>
-            <p class="lead">Utiliza los servicios que CONSTRUCTORA CONSEDIF te ofrece para tomar las mejores decisiones de acabados y protección. ¡contacta a CONSTRUCTORA CONSEDIF para crear el espacio de tus sueños! </p>
-            <a href="vistas/contacto.php" class="boton"><button type="button" class="btn btn-danger pull-right">Contactar</button></a>
+<article class="buscando">
+  <h1>¿Que andas buscando?</h1> <br><br> <br>
+  <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="img/hidra.png"
+            class="img-responsive">
+            <h2 class="">Hidráulica</h2>
+            <p class="">Manejamos productos en la línea de hidráulica para la más amplia variedad de aplicaciones e industrias. <br><br>Puedes preguntar a nuestros especialistas por el número de parte adecuado a tu necesidad.</p>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-6">
-            <img src="img/inte.jpg" class="img-responsive">
+          <div class="col-md-3">
+            <img src="img/tren.png"
+            class="img-responsive">
+            <h2 class="">Tren de rodaje</h2>
+            <p class="">Encuentra cadenas armadas, selladas o lubricadas así como otros elementos del tren de rodaje para  maquinaria, zapatas, rodillos,  ruedas dentadas y grupo de segmentos.</p>
+          </div>
+          <div class="col-md-3">
+            <img src="img/motor.png"
+            class="img-responsive img-rounded">
+            <h2 class="">Motores</h2>
+            <p class="">Productos que son básicos para el cuidado como lubricantes para motor a diésel y aceites hidráulicos, baterías de poste o tornillo, pinturas, aditivos para diésel, anticongelantes, grasas y filtros para combustible, filtros para aire o filtros para aceite o filtros para lubricante.</p>
+          </div>
+          <div class="col-md-3">
+            <img src="img/corte.png"
+            class="img-responsive">
+            <h2 class="">Corte</h2>
+            <p class="">En PADMA puedes encontrar refacciones y Herramientas de corte para tu excavadora, cargador, motoniveladora, retroexcavadora con la más alta calidad de los fabricantes. Obtén el mejor tiempo de entrega al mejor precio.</p>
           </div>
         </div>
       </div>
+      <div style="text-align: center; margin-top: 5%; margin-bottom: 5%;">
+      <a  class="btn btn-danger btn-outline btn-lg" href="vistas/servicios.php">SERVICIOS</a>
     </div>
-</div>
+</article>
 
-<div class="seccion">
-  <div class="izqui">
-    <div class="izquiuno">
-      <h1 style="color: #fff;">Algunos servicios</h1>
-      <p style="color: #fff;">Ejecutamos cualquier tipo de proyecto, servicio o mantenimiento en las ramas de la ingeniería civil y afines en las mejores condiciones de tiempo, costo y calidad respaldada por maquinaria y equipos propios.</p>
-      <a href="vistas/contacto.php" class="boton2"><button type="button" class="btn btn-danger pull-right">Contactar</button></a>
+
+<article class="buscando2">
+  <h1>Mantenimiento y Reparaciones</h1> <br><br> <br>
+  <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="img/CHANGLIN-ZL18H.png"
+            class="img-responsive image">
+            <h4 class="">CARGADOR FRONTAL ZL18H</h4>
+           
+          </div>
+          <div class="col-md-3">
+            <img src="img/rodillo-changlin.png"
+            class="img-responsive image">
+            <h4 class="">RODILLO AUTOPROPULSADO YZ12-HD</h4>
+            
+          </div>
+          <div class="col-md-3">
+            <img src="img/motoniveladora.png"
+            class="img-responsive  image">
+            <h4 class="">MOTONIVELADORA PY190H</h4>
+            
+          </div>
+          <div class="col-md-3">
+            <img src="img/retroexcavadora.png"
+            class="img-responsive image">
+            <h4 class="">RETROEXCAVADORA WZ30-25</h4>
+            
+          </div>
+        </div>
+
+        <br><br><br>
+
+        <div class="row">
+          <div class="col-md-3">
+            <img src="img/cargador-frontal-937H.png"
+            class="img-responsive image">
+            <h4 class="">CARGADOR FRONTAL 937H</h4>
+           
+          </div>
+          <div class="col-md-3">
+            <img src="img/cargador.png"
+            class="img-responsive image">
+            <h4 class="">CARGADOR FRONTAL 957H</h4>
+            
+          </div>
+          <div class="col-md-3">
+            <img src="img/minicargador.png"
+            class="img-responsive image">
+            <h4 class="">MINI CARGADOR FRONTAL 275</h4>
+            
+          </div>
+          <div class="col-md-3">
+            <img src="img/excavadora.png"
+            class="img-responsive image">
+            <h4 class="">EXCAVADORA ZG3210-9</h4>
+            
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 5%; margin-bottom: 5%;">
+      <a style="color: #fff;"  class="btn btn-danger btn-outline btn-lg" href="vistas/servicios.php">CONTACTANOS</a>
     </div>
-    <div class="izquidos">
-      <img src="img/contructora.jpg" alt="" class="img-responsive">
-    </div>
-  </div>
-  <div class="dere">
-          <div class="col-xs-12 col-sm-6 col-md-6">
-            <img src="img/arqui.jpg" class="img-responsive">
-            <h2 style="font-size: 20px;">Proyectos Arquitectónicos</h2>
-            <p>Contamos con arquitectos especializados en planos, para que su desarrollo sea de total calidad antes durante y despues de cada proyecto.</p>
-          </div>
+</article>
 
-          <div class="col-xs-12 col-sm-6 col-md-6">
-            <img src="img/edi.jpg"  class="img-responsive">
-            <h2 style="font-size: 20px;">Edificación</h2>
-            <p>Contamos con la asesoría técnica y profesional para la realización de proyecto y Construcción de edificios de cualquier giro que sea su empresa.</p>
-          </div>
-
-          <div class="col-xs-12 col-sm-6 col-md-6">
-            <img src="img/estudios2.png"     class="img-responsive">
-            <h2 style="font-size: 20px;">Estudios preliminares</h2>
-            <p>Analizamos, interpretamos, utilizamos y coordinamos los estudios preliminares de obra, proporcionando los datos e información que te permitirán conocer las características y condiciones del terreno a construir.</p>
-          </div>
-
-          <div class="col-xs-12 col-sm-6 col-md-6">
-            <img src="img/diseno.jpg" class="img-responsive">
-            <h2 style="font-size: 20px;">Diseño</h2>
-            <p class="centrar">Brindamos servicios de arquitectura y especialidades para todo tipo de proyectos.</p>
-          </div>
-  </div>
-</div>
-<div class="bannerinfo">
-  <p>Construimos con las conservacion del medio ambiente</p>
-  <h2>¡SOLO TENEMOS UN MUNDO CUIDALO!</h2>
-</div>
 
 <?php include 'vistas/pie.php' ?>
 <script src="js/jquery-2.2.3.min.js"></script>
-<!-- <script src="js/bootstrap.js"></script> -->
-<script src="js/menu.js"></script>
+<script src="js/bootstrap.js"></script>
+<!-- <script src="js/menu.js"></script> -->
 </body>
 </html>

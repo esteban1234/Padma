@@ -1,3 +1,3 @@
 <footer>
-<p>Derechos de autor 2017 © | CONSTRUCTORA CONSEDIF S.A. de C.V.</p>
+<p>Derechos de autor 2017 © | SERVICIOS Y MANTENIMIENTO PADMA S.C.P.</p>
 </footer>
