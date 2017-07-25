@@ -114,7 +114,7 @@
       </div>
     </div>
 <div style="text-align: center; margin-top: 5%; margin-bottom: 5%;">
-      <a   class="btn btn-danger btn-outline btn-lg" href="vistas/servicios.php">CONTACTANOS</a>
+      <a   class="btn btn-danger btn-outline btn-lg" href="contacto.php">CONTACTANOS</a>
     </div>
 
 

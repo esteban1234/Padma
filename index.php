@@ -121,7 +121,7 @@
         </div>
       </div>
       <div style="text-align: center; margin-top: 5%; margin-bottom: 5%;">
-      <a style="color: #fff;"  class="btn btn-danger btn-outline btn-lg" href="vistas/servicios.php">CONTACTANOS</a>
+      <a style="color: #fff;"  class="btn btn-danger btn-outline btn-lg" href="vistas/contacto.php">CONTACTANOS</a>
     </div>
 </article>
 
