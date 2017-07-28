@@ -22,7 +22,8 @@ $mail->From = $correo;
 $mail->FromName = $nombre;
 
 //To address and name
-$mail->addAddress("info@padma.com.mx");
+//$mail->addAddress("info@padma.com.mx");
+$mail->addAddress("ballina.santiago@gmail.com");
 
 
 $mail->isHTML(true);
@@ -35,7 +36,7 @@ $mail->Body = "
 
 if(!$mail->send())
 {
-  
+
   $html = '<div class="alert alert-dismissible alert-danger">
             <button type="button" class="close" data-dismiss="alert">&times;</button>
                 <strong>Error</strong> al enviar los datos.
@@ -45,7 +46,7 @@ if(!$mail->send())
 }
 else
 {
- 
+
  $html = '<div class="alert alert-dismissible alert-success">
             <button type="button" class="close" data-dismiss="alert">&times;</button>
                 <strong>Datos</strong> Enviados Correctamente.
