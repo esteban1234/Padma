@@ -13,6 +13,10 @@
   <figure class=" logo pull-right">
     <img src="../img/padma.png" class="img-responsive" alt="">
   </figure>
+
+	<div class="menu-op">
+    <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+  </div>
 </header>
 
 <div class="banner3">
@@ -29,27 +33,21 @@
 	<p class="texto">Con años de experiencia representando marcas líderes a nivel mundial, contamos con un servicio Técnico de calidad. Con amplia experiencia en los sectores, portuario, logístico, minero y de construcción. Somos personas organizadas para una atención personalizada, brindando Servicio Técnico los 365 días del año.
 	</p>
 	<div class="row">
-	    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 card">
+	    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 card">
     		<a href="#">
     		<div class="thumbnail">
     		    <div style="background-color:  #566573; height: 100px;" ></div>
     			<div class="caption">
-    				<h3>
-    					Mantenimiento Preventivo
-    					<!-- <small>
-    						Lorem ipsum dolor sit amet
-    					</small> -->
-    				</h3>
-    				<hr>		
+    				<h3>Mantenimiento Preventivo</h3>
+    				<hr>
     				<p>
     					Inspección periódica programada y planeada por los ingenieros encargados sobre el trabajo en todas las áreas de la planta con el fin de detectar el uso y desgaste de equipos y maquinas u otros y detectar posibles fallas o errores que puedan ocurrir en los lugares de trabajo.
     				</p>
-    				<!-- <button class="btn btn-default" role="button">View More</button> -->
     			</div>
     		</div>
     		</a>
     	</div>
-    	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 card">
+    	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 card">
     		<a href="#">
     		<div class="thumbnail">
     		    <div style="background-color:  #566573; height: 100px;" ></div>
@@ -60,7 +58,7 @@
     						Lorem ipsum dolor sit amet
     					</small> -->
     				</h3>
-    				<hr>		
+    				<hr>
     				<p>
     					Servicio de mantenimiento para su equipo ligero, pesado ó especializado manejando todas las marcas disponibles, entregando un analisis del estado de su equipo.
     				</p>
@@ -69,7 +67,7 @@
     		</div>
     		</a>
     	</div>
-    	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 card">
+    	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 card">
     		<a href="#">
     		<div class="thumbnail">
     		    <div style="background-color:  #566573; height: 100px;" ></div>
@@ -80,7 +78,7 @@
     						Lorem ipsum dolor sit amet
     					</small> -->
     				</h3>
-    				<hr>		
+    				<hr>
     				<p>
     					Las marcas de los productos que distribuimos son fabricadas siguiendo rigurosos procedimientos de control de calidad, lo que nos permite ofrecer partes con estandares iguales a los del equipo original.
     				</p>
@@ -89,7 +87,7 @@
     		</div>
     		</a>
     	</div>
-    	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 card">
+    	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 card">
     		<a href="#">
     		<div class="thumbnail">
     		    <div style="background-color:  #566573; height: 100px;" ></div>
@@ -100,7 +98,7 @@
     						Lorem ipsum dolor sit amet
     					</small> -->
     				</h3>
-    				<hr>		
+    				<hr>
     				<p>
     					Nuestro grupo humano está capacitado y certificado en las fábricas de producción y provisto de los mejores equipos y herramientas, para solucionar de manera inmediata cualquier inconveniente que presente una máquina.
     				</p>
@@ -115,7 +113,7 @@
 <article class="petroleo">
 	<div class="section">
       <div class="container">
-       <h1 style="margin-top: 7%; margin-bottom: 7%;" class="text-center">Supervisión de construcción de obras para petróleo y gas</h1>
+       <h1 style="margin-top: 7%; margin-bottom: 7%;" class="text-center eleccion-padma2">Supervisión de construcción de obras para petróleo y gas</h1>
         <div class="row">
           <div class="col-md-3">
             <div style="text-align: center;">
@@ -173,10 +171,10 @@
       <a style="color: #fff;"  class="btn btn-danger btn-outline btn-lg" href="contacto.php">CONTACTANOS</a>
     </div>
 </article>
-	
+
 <?php include 'pie.php' ?>
 <script src="../js/jquery.js"></script>
 <script src="../js/bootstrap.js"></script>
-<!-- <script src="../js/menu.js"></script> -->
+<script src="../js/menu.js"></script>
 </body>
 </html>

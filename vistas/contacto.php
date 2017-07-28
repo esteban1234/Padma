@@ -14,6 +14,10 @@
   <figure class=" logo pull-right">
     <img src="../img/padma.png" class="img-responsive" alt="">
   </figure>
+
+  <div class="menu-op">
+    <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+  </div>
 </header>
 
 <div class="banner4">
@@ -31,30 +35,31 @@
               <h2>Contáctanos</h2> <br><br>
               <p>Escribenos tus comentario, dudas o preguntas, estamos para servirte.</p> <br><br>
               <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                  <form class="form-horizontal">
+                <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
+                  <form class="form-horizontal" onSubmit="return false">
                     <div class="form-group">
                       <label for="exampleInputName2">Nombre Completo</label>
-                      <input type="text" class="form-control" id="exampleInputName2" placeholder="Escribe tu nombre completo">
+                      <input type="text" class="form-control" id="txtNOMBRE" placeholder="Escribe tu nombre completo">
                     </div>
                     <div class="form-group">
                       <label for="exampleInputEmail2">Email</label>
-                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Escribe tu correo">
+                      <input type="email" class="form-control" id="txtCORREO" placeholder="Escribe tu correo">
                     </div>
                     <div class="form-group">
                       <label for="exampleInputTel2">Teléfono</label>
-                      <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Escribe tu numero de Teléfono">
+                      <input type="text" class="form-control" id="txtTELEFONO" placeholder="Escribe tu numero de Teléfono">
                     </div>
                     <div class="form-group ">
                       <label for="exampleInputText">Comentario</label>
-                     <textarea  class="form-control" placeholder="Escribe tu Mensaje"></textarea> 
-                    </div>
-                    <button type="submit" class="btn btn-default">Enviar Mensaje</button>
-                  </form> <br>	<br>	
+                     <textarea  class="form-control" id="txtCOMENTARIO" placeholder="Escribe tu Mensaje"></textarea>
+                   </div>
+                   <div id="_AJAX_PRE_"></div>
+                    <button type="submit" class="btn btn-default" onclick="sendCORREO()">Enviar Mensaje</button>
+                  </form> <br>	<br>
 
-                  <hr> <br>	<br>	
-                    
-                  
+                  <hr> <br>	<br>
+
+
                 </div>
               </div>
             </div>
@@ -64,7 +69,7 @@
       <div class="container">
 	<div class="row">
 	<h3 class="text-center">Información adicional</h3> <br><br>
-    <div class="col-md-3 col-sm-4">
+    <div class="col-xs-12 col-sm-12 col-md-3">
       <div class="wrimagecard wrimagecard-topimage">
           <a href="#">
           <div class="wrimagecard-topimage_header" style="background-color: rgba( 33, 47, 60 , 0.9)">
@@ -77,50 +82,50 @@
         </a>
       </div>
 </div>
-<div class="col-md-3 col-sm-4">
+<div class="col-xs-12 col-sm-12 col-md-3">
       <div class="wrimagecard wrimagecard-topimage">
           <a href="#">
           <div class="wrimagecard-topimage_header" style="background-color:  rgba(81, 90, 90, 0.9)">
             <center><i class="fa fa-phone" style="color:#fff"> </i></center>
           </div>
           <div class="wrimagecard-topimage_title" >
-            <h4>Pendiente
+            <h4 class="text-center">Pendiente
             <div class="pull-right badge" id="WrForms"></div>
             </h4>
           </div>
-          
+
         </a>
       </div>
 	</div>
-	<div class="col-md-3 col-sm-4">
+	<div class="col-xs-12 col-sm-12 col-md-3">
       <div class="wrimagecard wrimagecard-topimage">
           <a href="#">
           <div class="wrimagecard-topimage_header" style="background-color:  rgba( 121, 125, 127 , 0.9)">
              <center><i class="fa fa-envelope-open-o" style="color:#fff"> </i></center>
           </div>
           <div class="wrimagecard-topimage_title">
-            <h4>info@padma.com.mx
+            <h4 class="text-center">info@padma.com.mx
             <div class="pull-right badge" id="WrGridSystem"></div></h4>
           </div>
-          
+
         </a>
       </div>
 	</div>
-	<div class="col-md-3 col-sm-4">
+	<div class="col-xs-12 col-sm-12 col-md-3">
       <div class="wrimagecard wrimagecard-topimage">
           <a href="#">
           <div class="wrimagecard-topimage_header" style="background-color:  rgba( 95, 106, 106 , 0.9)">
              <center><i class="fa fa-street-view" style="color:#fff"> </i></center>
           </div>
           <div class="wrimagecard-topimage_title2">
-            <h4>C. Del Gran Parque #225-A por C. Del Bosque y C. Paseo De La Cordillera. Col. Las Cumbres 2 Sector, Monterrey, Nuevo Leon. C.P. 64610
+            <h4 class="texto-justificado">C. Del Gran Parque #225-A por C. Del Bosque y C. Paseo De La Cordillera. Col. Las Cumbres 2 Sector, Monterrey, Nuevo Leon. C.P. 64610
             <div class="pull-right badge" id="WrInformation"></div></h4>
           </div>
-         
+
         </a>
       </div>
 	</div>
-	
+
 </div>
 </div> <br><br>
 
@@ -128,7 +133,8 @@
 <?php include 'pie.php' ?>
 <script src="../js/jquery.js"></script>
 <script src="../js/bootstrap.js"></script>
-<!-- <script src="../js/menu.js"></script> -->
+<script src="../js/menu.js"></script>
+<script src="../js/sendCORREO.js"></script>
 
 </body>
 </html>

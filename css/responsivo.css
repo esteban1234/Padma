@@ -1,0 +1,617 @@
+@media screen and (max-width: 480px){
+  /***********************DISEÑO INDEX*************************/
+  header nav{
+    width: 80%;
+    position: fixed;
+    height: 100%;
+    margin: 0px;
+    left: -100%;
+    top: 0px;
+    background-color: rgba(0, 0, 0,0.9);
+    z-index: 2;
+  }
+
+  nav ul{
+    width: 100%;
+    padding: 0px;
+  }
+
+  nav ul a{
+    display: block;
+    text-align: center;
+    padding: 15px 0px !important;
+    color: #fff !important;
+    border-bottom: .5px solid rgba(255, 0, 0, 0.5) !important;
+  }
+
+  header .logo{
+    width: 50%;
+    margin: auto;
+    float: none !important;
+  }
+
+  .menu-op{
+    position: fixed;
+    right: 10%;
+    top: 8%;
+    cursor: pointer;
+    z-index: 3;
+    display: block;
+  }
+
+  .banner{
+    height: 100%;
+  }
+
+  .fondo{
+    height: 100%;
+    padding: 50px 0px;
+  }
+
+  .fondo p{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .buscando h1, .buscando2 h1{
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0px;
+    padding: 15px 0px;
+  }
+
+  .new-style-col div{
+    border-bottom: .5px solid rgba(0,0,0,0.3);
+    padding-bottom: 15px;
+  }
+
+  .new-style-col div img{
+    margin: auto;
+  }
+
+  .new-style-col div h2, .new-style-col div h4{
+    text-align: center;
+  }
+
+  .new-style-col div p{
+    text-align: justify;
+  }
+  /********************END DISEÑO INDEX************************/
+
+  /*********************DISEÑO NOSOTROS***************************/
+  .banner2 p, .banner3 p, .fondo4 p{
+    margin-top: 150px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .somos h1, .eleccion-padma{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .texto{
+    width: 90%;
+    text-align: justify;
+  }
+
+  .mvv{
+    padding-top: 10px;
+  }
+
+  .new-tamano-titulo{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .texto-justificado{
+    text-align: justify;
+  }
+
+  .alinear-font{
+    text-align: center;
+    font-size: 10px;
+    padding: 10px 0px 20px 0px;
+  }
+
+  .new-style{
+    border-bottom: .5px solid rgba(0,0,0,0.3);
+  }
+
+  .new-style h3{
+    text-align: center;
+  }
+
+  .new-style p{
+    text-align: justify;
+  }
+
+  .new-style .text-left{
+    text-align: center;
+  }
+  /********************END DISEÑO NOSOTROS************************/
+
+  /*********************DISEÑO SERVICIOS***************************/
+    .caption{
+      /*border: 2px solid red;*/
+      padding: 5px 10px !important;
+    }
+
+    .caption p{
+      text-align: justify;
+      /*border: 2px solid green;*/
+    }
+
+    .eleccion-padma2{
+      font-size: 25px;
+    }
+
+  /********************END DISEÑO SERVICIOS************************/
+
+  /*********************DISEÑO CONTACTO***************************/
+    /*form{
+      border: 2px solid red;
+    }*/
+
+    form div{
+      width: 100%;
+      margin: 10px auto !important;
+    }
+
+    /*.wrimagecard-topimage_header{
+      border: 2px solid red;
+    }*/
+
+    .wrimagecard-topimage_header center > i{
+      font-size: 35px !important;
+    }
+
+  /********************END DISEÑO CONTACTO************************/
+
+  /*********************DISEÑO FOOTER***************************/
+  footer{
+    height: 100%;
+    padding: 0px !important;
+  }
+
+  footer p{
+    width: 100%;
+    padding: 15px 5px;
+    font-size: 15px;
+  }
+  /********************END DISEÑO FOOTER************************/
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+  /***********************DISEÑO INDEX*************************/
+  header nav{
+    width: 80%;
+    position: fixed;
+    height: 100%;
+    margin: 0px;
+    left: -100%;
+    top: 0px;
+    background-color: rgba(0, 0, 0,0.9);
+    z-index: 2;
+  }
+
+  nav ul{
+    width: 100%;
+    padding: 0px;
+  }
+
+  nav ul a{
+    display: block;
+    text-align: center;
+    padding: 15px 0px !important;
+    color: #fff !important;
+    border-bottom: .5px solid rgba(255, 0, 0, 0.5) !important;
+  }
+
+  header .logo{
+    width: 50%;
+    margin: auto;
+    float: none !important;
+  }
+
+  .menu-op{
+    position: fixed;
+    right: 10%;
+    top: 8%;
+    cursor: pointer;
+    z-index: 3;
+    display: block;
+  }
+
+  .banner{
+    height: 100%;
+  }
+
+  .fondo{
+    height: 100%;
+    padding: 50px 0px;
+  }
+
+  .fondo p{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .buscando h1, .buscando2 h1{
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0px;
+    padding: 15px 0px;
+  }
+
+  .new-style-col div{
+    border-bottom: .5px solid rgba(0,0,0,0.3);
+    padding-bottom: 15px;
+  }
+
+  .new-style-col div img{
+    margin: auto;
+  }
+
+  .new-style-col div h2, .new-style-col div h4{
+    text-align: center;
+  }
+
+  .new-style-col div p{
+    text-align: justify;
+  }
+  /********************END DISEÑO INDEX************************/
+
+  /*********************DISEÑO NOSOTROS***************************/
+  .banner2 p, .banner3 p, .fondo4 p{
+    margin-top: 150px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .somos h1, .eleccion-padma{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .texto{
+    width: 90%;
+    text-align: justify;
+  }
+
+  .mvv{
+    padding-top: 10px;
+  }
+
+  .new-tamano-titulo{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .texto-justificado{
+    text-align: justify;
+  }
+
+  .alinear-font{
+    text-align: center;
+    font-size: 10px;
+    padding: 10px 0px 20px 0px;
+  }
+
+  .new-style{
+    border-bottom: .5px solid rgba(0,0,0,0.3);
+  }
+
+  .new-style h3{
+    text-align: center;
+  }
+
+  .new-style p{
+    text-align: justify;
+  }
+
+  .new-style .text-left{
+    text-align: center;
+  }
+
+  .texto-valores{
+    text-align: center;
+
+  }
+
+  .pull-left-new{
+    float: none !important;
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+  }
+
+
+  /********************END DISEÑO NOSOTROS************************/
+
+  /*********************DISEÑO SERVICIOS***************************/
+    .caption{
+      /*border: 2px solid red;*/
+      padding: 5px 10px !important;
+    }
+
+    .caption p{
+      text-align: justify;
+      /*border: 2px solid green;*/
+    }
+
+    .eleccion-padma2{
+      font-size: 25px;
+    }
+
+  /********************END DISEÑO SERVICIOS************************/
+
+  /*********************DISEÑO CONTACTO***************************/
+    /*form{
+      border: 2px solid red;
+    }*/
+
+    form div{
+      width: 100%;
+      margin: 10px auto !important;
+    }
+
+    /*.wrimagecard-topimage_header{
+      border: 2px solid red;
+    }*/
+
+    .wrimagecard-topimage_header center > i{
+      font-size: 35px !important;
+    }
+
+  /********************END DISEÑO CONTACTO************************/
+
+  /*********************DISEÑO FOOTER***************************/
+  footer{
+    height: 100%;
+    padding: 0px !important;
+  }
+
+  footer p{
+    width: 100%;
+    padding: 15px 5px;
+    font-size: 15px;
+  }
+  /********************END DISEÑO FOOTER************************/
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+  /***********************DISEÑO INDEX*************************/
+  header nav{
+    width: 80%;
+    position: fixed;
+    height: 100%;
+    margin: 0px;
+    left: -100%;
+    top: 0px;
+    background-color: rgba(0, 0, 0,0.9);
+    z-index: 2;
+  }
+
+  nav ul{
+    width: 100%;
+    padding: 0px;
+  }
+
+  nav ul a{
+    display: block;
+    text-align: center;
+    padding: 15px 0px !important;
+    color: #fff !important;
+    border-bottom: .5px solid rgba(255, 0, 0, 0.5) !important;
+  }
+
+  header .logo{
+    width: 30%;
+    margin: auto;
+    float: none !important;
+  }
+
+  .menu-op{
+    position: fixed;
+    right: 10%;
+    top: 8%;
+    cursor: pointer;
+    z-index: 3;
+    display: block;
+  }
+
+  .banner{
+    height: 100%;
+  }
+
+  .fondo{
+    height: 100%;
+    padding: 50px 0px;
+  }
+
+  .fondo p{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .buscando h1, .buscando2 h1{
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0px;
+    padding: 15px 0px;
+  }
+
+  .new-style-col div{
+    /*border-bottom: .5px solid rgba(0,0,0,0.3);*/
+    padding-bottom: 15px;
+  }
+
+  .new-style-col div img{
+    margin: auto;
+  }
+
+  .new-style-col div h2, .new-style-col div h4{
+    text-align: center;
+  }
+
+  .new-style-col div p{
+    text-align: justify;
+  }
+  /********************END DISEÑO INDEX************************/
+
+  /*********************DISEÑO NOSOTROS***************************/
+  .banner2 p, .banner3 p, .fondo4 p{
+    margin-top: 150px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .somos h1, .eleccion-padma{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .texto{
+    width: 90%;
+    text-align: justify;
+  }
+
+  .mvv{
+    padding-top: 10px;
+  }
+
+  .new-tamano-titulo{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .texto-justificado{
+    text-align: justify;
+  }
+
+  .alinear-font{
+    text-align: center;
+    font-size: 10px;
+    padding: 10px 0px 20px 0px;
+  }
+
+  .new-style{
+    border-bottom: .5px solid rgba(0,0,0,0.3);
+  }
+
+  .new-style h3{
+    text-align: center;
+  }
+
+  .new-style p{
+    text-align: justify;
+  }
+
+  .new-style .text-left{
+    text-align: center;
+  }
+
+  .texto-valores{
+    text-align: center;
+
+  }
+
+  .pull-left-new{
+    float: none !important;
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+  }
+
+
+  /********************END DISEÑO NOSOTROS************************/
+
+  /*********************DISEÑO SERVICIOS***************************/
+    .caption{
+      /*border: 2px solid red;*/
+      padding: 5px 10px !important;
+    }
+
+    .caption p{
+      text-align: justify;
+      /*border: 2px solid green;*/
+    }
+
+    .eleccion-padma2{
+      font-size: 25px;
+    }
+
+  /********************END DISEÑO SERVICIOS************************/
+
+  /*********************DISEÑO CONTACTO***************************/
+    /*form{
+      border: 2px solid red;
+    }*/
+
+    form div{
+      width: 100%;
+      margin: 10px auto !important;
+    }
+
+    /*.wrimagecard-topimage_header{
+      border: 2px solid red;
+    }*/
+
+    .wrimagecard-topimage_header center > i{
+      font-size: 35px !important;
+    }
+
+  /********************END DISEÑO CONTACTO************************/
+
+  /*********************DISEÑO FOOTER***************************/
+  footer{
+    height: 100%;
+    padding: 0px !important;
+  }
+
+  footer p{
+    width: 100%;
+    padding: 15px 5px;
+    font-size: 15px;
+  }
+  /********************END DISEÑO FOOTER************************/
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+  .new-style-col div p{
+    text-align: justify;
+  }
+
+  .alinear-font{
+    text-align: center;
+    font-size: 10px;
+    padding: 10px 0px 20px 0px;
+  }
+
+  .new-style{
+    border-bottom: .5px solid rgba(0,0,0,0.3);
+  }
+
+  .new-style h3{
+    text-align: center;
+  }
+
+  .new-style p{
+    text-align: justify;
+  }
+
+  .new-style .text-left{
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }
