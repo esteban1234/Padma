@@ -21,7 +21,7 @@
 
 <div class="banner">
   <div class="fondo">
-    <p>El Mejor Equipo Al Mejor Precio</p>
+    <p>El Mejor Servicio Al Mejor Precio</p>
     <div style="text-align: center; margin-top: 5%;">
       <a  class="btn btn-danger btn-outline btn-lg" href="vistas/contacto.php">CONTACTANOS</a>
     </div>
